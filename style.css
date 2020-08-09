@@ -1,0 +1,23 @@
+h1, p {
+  font-family: Lato;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  opacity: 0.1;
+  cursor: pointer;
+}
+
+li.selected {
+  opacity: 1;
+  color:#FFD700;
+}
+
+.container {
+  text-align: center;
+}
